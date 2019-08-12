@@ -1,0 +1,12 @@
+﻿
+
+<h1>Random Passcode (passcode # @ViewBag.Count)</h1>
+<h4>Random number: @ViewBag.RandNum</h4>
+<form asp-action="Index" asp-controller="Home" method="get">
+    <input class="btn btn-primary" value="Generate random number" type="submit">
+</form>
+
+<form asp-action="Clear" asp-controller="Home" method="get">
+    <input class="btn btn-danger" value="Reset" type="submit">
+</form>
+
